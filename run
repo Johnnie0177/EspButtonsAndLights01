@@ -1,0 +1,12 @@
+idf.py -p /dev/ttyACM0 flash
+echo "
+
+Following log with:
+	idf.py -p /dev/ttyACM0 monitor
+
+Unrecommended alternatives:
+	cat /dev/ttyACM0 | run-singlespace
+	tail --follow --retry /dev/ttyACM0
+
+"
+idf.py -p /dev/ttyACM0 monitor

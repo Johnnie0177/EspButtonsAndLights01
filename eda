@@ -1,0 +1,1 @@
+edn eda main/*.c *.txt main/*.txt mak run sdkconfig sdkconfig_orig
